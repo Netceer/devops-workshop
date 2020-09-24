@@ -35,5 +35,3 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run ESlint
         run: npm run lint
-          echo Add other actions to build,
-          echo test, and deploy your project.
