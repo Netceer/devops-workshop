@@ -27,10 +27,10 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: Run prettier
-        run: npm start prettier
+        run: npm run prettier
 
       # Runs a set of commands using the runners shell
       - name: Run ESlint
-        run: npm start lint
+        run: npm run lint
           echo Add other actions to build,
           echo test, and deploy your project.
