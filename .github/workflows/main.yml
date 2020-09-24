@@ -22,8 +22,8 @@ jobs:
        # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         
-      - name: Use node.js
-        uses: actions/setup-node@v1
+      #- name: Use node.js
+       # uses: actions/setup-node@v1
   
       - name: install npm packages
         run: npm i
